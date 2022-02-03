@@ -1,0 +1,70 @@
+.container {
+  max-width: 600px;
+  max-height: 550px;
+  padding: 20px, 10px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+h1 {
+  text-align: right;
+  padding: 10px;
+  position: relative;
+  top: -25px;
+}
+
+h3 {
+  font-size: 20px;
+  position: relative;
+  right: -110px;
+  bottom: 50px;
+  opacity: 0.9;
+}
+
+
+
+.weather-app {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: thick double #32a1ce;
+  border-radius: 3px;
+  padding: 1em;
+  background-color: honeydew;
+}
+
+.weather-app:hover {
+  background-color: rgb(240, 252, 240);
+}
+.search-bar {
+  text-align: center;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  background-color: rgb(255, 196, 250);
+  text-decoration: underline;
+}
+.date {
+  text-align: right;
+  position: relative;
+  bottom: 60px;
+}
+.description {
+  text-align: right;
+  position: relative;
+  bottom: 60px;
+}
+
+.information {
+  position: relative;
+  bottom: 15px;
+  right: -50px;
+  opacity: 0.6;
+}
+
+.emojis {
+  font-size: 45px;
+}
