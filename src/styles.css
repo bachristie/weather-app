@@ -68,3 +68,11 @@ a:hover {
 .emojis {
   font-size: 45px;
 }
+
+.footer {
+  color: #eb5e0b;
+  display: block;
+  font-family: monospace;
+  font-size: 10px;
+  margin: 0 auto;
+}
