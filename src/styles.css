@@ -1,3 +1,7 @@
+body{
+  color: rgb(105, 105, 209);
+
+}
 .container {
   max-width: 600px;
   max-height: 550px;
@@ -6,20 +10,22 @@
   border-radius: 20px;
 }
 h1 {
-  text-align: right;
-  padding: 10px;
-  position: relative;
+
+  padding: 5px;
   top: -25px;
 }
-
-h3 {
-  font-size: 20px;
-  position: relative;
-  right: -110px;
-  bottom: 50px;
-  opacity: 0.9;
+ul{
+  margin: 0; 
+  padding: 0;
 }
-
+ li{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   font-weight: 100;
+   line-height: 19px;
+ }
 
 
 .weather-app {
@@ -33,44 +39,32 @@ h3 {
 .weather-app:hover {
   background-color: rgb(240, 252, 240);
 }
+
+.overview{
+  margin-bottom: 20px;
+}
 .search-bar {
   text-align: center;
-  font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 25px;
+ 
 }
 
-a:hover {
-  cursor: pointer;
-  opacity: 0.4;
-  background-color: rgb(255, 196, 250);
-  text-decoration: underline;
-}
-.date {
-  text-align: right;
-  position: relative;
-  bottom: 60px;
-}
-.description {
-  text-align: right;
-  position: relative;
-  bottom: 60px;
+.weather-temperature{
+    position: relative;
+    font-size: 38px;
+    top: -34px;
 }
 
-.information {
-  position: relative;
-  bottom: 15px;
-  right: -50px;
-  opacity: 0.6;
+.weather-forecast-date {
+    font-size: 16px;
+ 
+    color:darkolivegreen
 }
 
-.emojis {
-  font-size: 45px;
-}
 
 .footer {
-  color: #eb5e0b;
+  color: #0beb29;
   display: block;
   font-family: monospace;
   font-size: 10px;
