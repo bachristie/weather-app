@@ -1,6 +1,4 @@
-body{
-  color: rgb(105, 105, 209);
-}
+
 .container {
   max-width: 600px;
   max-height: 550px;
@@ -9,7 +7,7 @@ body{
   border-radius: 20px;
 }
 h1 {
-
+  font-weight: 200;
   padding: 5px;
   top: -25px;
 }
@@ -40,8 +38,23 @@ ul{
 }
 
 .overview{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 58px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 20px;
+  top: -28px;
+  
+}
+
 .search-bar {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -54,9 +67,13 @@ ul{
     font-size: 38px;
     top: -34px;
 }
-
-.weather-forecast-date {
-    font-size: 16px;
- 
-    color:darkolivegreen
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
+
+
+
+.weather-forecast-temperatures {
+  font-size: 16px;
+}
+
